@@ -9,11 +9,13 @@ windIntensity = float(sys.argv[1])
 
 if windIntensity >= 220 :
     print("Super Typhoon")
-elif windIntensity >= 118 and windIntensity < 220 :
+elif windIntensity >= 118 :
     print("Typhoon")
-elif windIntensity >= 89 and windIntensity < 118 :
+elif windIntensity >= 89 :
     print("Severe Tropical Storm")
-elif windIntensity >= 62 and windIntensity < 89 : 
+elif windIntensity >= 62 : 
     print("Tropical Storm")
 elif windIntensity <= 61 and windIntensity > 0 :
     print("Tropical Depression")
+else :
+    print("Out of Range")

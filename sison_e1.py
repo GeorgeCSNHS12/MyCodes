@@ -1,7 +1,7 @@
 data = { 
     "myName" : "George William M. Sison",
     "mySpiritAnimal" : "Cat",
-    "myReason" : "I'm an apathetic person and energy converver just like a cat",
+    "myReason" : "I'm an apathetic person and energy conerver just like a cat",
     "myHobby" : "play MMORPGs and watch animes",
     "myFutureProfession" : "Software Developer"
 }

@@ -22,15 +22,27 @@ void getBMI(){
 }
 
 void getGasMileage(){
-    double miles, gas, mpg, tMiles, tGas, tMpg;
+    double miles, gas, mpg, tMiles = 0, tGas = 0, tMpg;
     int ctr = 1, dec;
 
     do{
         print "\nInput Miles in Trip #" << ctr << ": ";
         input miles;
         print "\nInput Gas in Trip #" << ctr << ": ";
-        input miles;
+        input gas;
 
+        tMiles += miles;
+        tGas += gas;
+
+        mpg = miles / gas;
+        tMpg = tMiles / tGas;
+
+        print "\nMPG in Trip #" << ctr << ": [" << mpg << "]";
+        print "\nTotal MPG for all the Trip: [" << tMpg<< "]";
+
+        print "\n==================\nCon" << ctr << ": ";
+        input miles;
+        ctr++;
     }while(dec == 0);
 
 

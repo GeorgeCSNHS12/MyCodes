@@ -37,11 +37,11 @@ void getGasMileage(){
         mpg = miles / gas;
         tMpg = tMiles / tGas;
 
-        print "\nMPG in Trip #" << ctr << ": [" << mpg << "]";
-        print "\nTotal MPG for all the Trip: [" << tMpg<< "]";
+        print "\nMPG in Trip #" << ctr << ": [" << mpg << " kg/gal]";
+        print "\nTotal MPG for all the Trip: [" << tMpg<< " kg/gal]";
 
-        print "\n==================\nCon" << ctr << ": ";
-        input miles;
+        print "\n==================\nContinue(0) or Exit(1) #" << ctr << ": ";
+        input dec;
         ctr++;
     }while(dec == 0);
 
